@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Union</title>
+    <link rel="stylesheet" href="/estilos/style_index.css">
+    <link rel="shortcut icon" href="/imagenes/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="div_logo">
+            <a href="index.html"><img class="logo" src="/imagenes/Logo_union.svg" alt="Logo de Union"></a>
+        </div>
+        <nav>
+            <ul class="navegacion">
+                <li><a href="pagina_construccion.html">Cómo funciona</a></li>
+                <li><a href="proyectos_actuales.html">Proyectos actuales</a></li>
+                <li><a href="pagina_construccion.html">Casos de éxito</a></li>
+                <li><a href="login.html">Sign up/Login</a></li>
+            </ul>
+        </nav>
+        <div class="buscador">
+            <input type="text" placeholder="  Nombre del Proyecto" required>
+            <button type="submit">Buscar</button>
+        </div>
+    </header>
+    <div class="div_nuevoproyecto">
+        <a href="pagina_construccion.html"><h1>Ingresar Proyecto</h1></a>
+    </div>
+    <main>
+        <section class="que_es">
+            <h1>Qué es el Crowdfunding</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat nesciunt, libero dignissimos
+                voluptatem rem mollitia nulla veniam nobis ipsa omnis culpa assumenda esse natus provident possimus
+                magni aut animi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat nesciunt, libero dignissimos
+                voluptatem rem mollitia nulla veniam nobis ipsa omnis culpa assumenda esse natus provident possimus
+                magni aut animi! <a href="pagina_construccion.html">Seguí leyendo</a> </p>
+        </section>
+        <article>
+            <h1>Proyectos actuales destacados</h1>
+            <section id="galeria">
+                <div class="imagenes" id="imagen-1">
+                    <a href="proyectos_actuales.html"><h2>BENESIT</h2></a>
+                </div>
+                <div class="imagenes" id="imagen-2">
+                    <a href="proyectos_actuales.html"><h2>AMALIE ANGEBLAUT</h2></a>
+                </div>
+                <div class="imagenes" id="imagen-3">
+                    <a href="proyectos_actuales.html"><h2>CALLE 61</h2></a>
+                </div>
+                <div class="imagenes" id="imagen-4">
+                    <a href="proyectos_actuales.html"><h2>TANMATEIX</h2></a>
+                </div>
+                <div class="imagenes" id="imagen-5">
+                    <a href="proyectos_actuales.html"><h2>VIANANDA</h2></a>
+                </div>
+                <div class="imagenes" id="imagen-6">
+                    <a href="proyectos_actuales.html"><h2>Mezcal Devoción</h2></a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <h1>Enterate de los proyectos más <br> importantes a los cuales apoyar</h1>
+        <form method="POST" action="http://localhost:4000/index">
+            <div id="newsletter">
+                <input type="email" placeholder="Ingresar Email" id="name" name="email" required>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </aside>
+    <footer>
+        <section class="seccion_footer">
+            <div class="contenido">
+                <div class="info_contacto">
+                    <div>
+                        <h1>Contacto</h1>
+                        <ul class="bx-ul">
+                            <li>
+                                <i class='bx bx-map'></i>Dr Luis Bonavita 1294, Montevideo
+                            </li>
+                            <li>
+                                <i class='bx bx-at'></i>info@union.com.uy
+                            </li>
+                            <li>
+                                <i class='bx bx-phone'></i>(00598) 2622 14 63
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="rrss">
+                        <li>
+                            <a href=http://www.linkedin.com target="_blank"><i class='bx bxl-linkedin bx-md'></i></a>
+                        </li>
+                        <li>
+                            <a href=http://www.facebook.com target="_blank"><i class='bx bxl-facebook bx-md'></i></a>
+                        </li>
+                        <li>
+                            <a href=http://www.instagram.com target="_blank"> <i class='bx bxl-instagram bx-md'></i></a>
+                        </li>
+                        <li>
+                            <a href=http://www.twitter.com target="_blank"><i class='bx bxl-twitter bx-md'></i></a>
+                        </li>
+                    </ul>
+                    <p class="copyright">Copyright 2021 © - Union™ - Juan Cajarville</p>
+                </div>
+                <form class="formulario_contacto">
+                    <h1>Queremos saber de vos</h1>
+                    <div class="formcaja">
+                        <div class="inputcaja w45">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="inputcaja w45">
+                            <input type="text" placeholder="Apellido" required>
+                        </div>
+                        <div class="inputcaja w45">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="inputcaja w45">
+                            <input type="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="inputcaja w100">
+                            <input type="text" placeholder="Escribí el mensaje que quieras" required>
+                        </div>
+                        <div class="inputcaja w100">
+                            <button type="submit" id="boton">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
